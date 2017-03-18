@@ -1,0 +1,48 @@
+{
+  "name": "jsnip",
+  "version": "0.0.6",
+  "description": "Get common JavaScript code snippets",
+  "license": "MIT",
+  "repository": "radiovisual/jsnip",
+  "author": {
+    "name": "Michael Wuergler",
+    "email": "wuergler@gmail.com",
+    "url": "numetriclabs.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "eslint cli.js index.js templates && ava"
+  },
+  "files": [
+    "snippets",
+    "index.js"
+  ],
+  "main": "index.js",
+  "keywords": [
+    "get",
+    "fetch",
+    "JS",
+    "js",
+    "code",
+    "snip",
+    "snippets",
+    "from",
+    "node",
+    "samples",
+    "strings",
+    "templates"
+  ],
+  "dependencies": {
+    "handlebars": "^4.0.6"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0"
+  }
+}
