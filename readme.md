@@ -40,20 +40,20 @@ snippet file.
 | input | Description |
 | ------| -----------|
 | [function](snippets/react-function.js)   | A functional React component. |
-| [class](snippets/react-class.js)       | A class-based React component. |
-| [action](snippets/redux-actions.js)     | A Redux action snippet. |
+| [class](snippets/react-class.js)         | A class-based React component. |
+| [action](snippets/redux-actions.js)      | A Redux action snippet. |
 | [reducer](snippets/redux-reducer.js)     | A Redux reducer snippet. |
-| [lorem](snippets/lorem.txt)     | 3 paragraphs of lorem ipsum text. |
+| [lorem](snippets/lorem.txt)              | 3 paragraphs of lorem ipsum text. |
 
-#### input
+#### options
 
 Type: `object`  
 
 Possible options are:
 
-| Name | Type | Default | Description |
-| ------| -----------|
-| `name`      | `string` | `ClassName` | Specify the function or class name to use in the output |
+|  | Type | Default | Description |
+| ----- | ----- | ----- | ----- |
+| `name`      | `string` | `'ClassName'` | Specify the function or class name to use in the output |
 
 
 ## Contribution
