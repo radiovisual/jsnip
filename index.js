@@ -4,6 +4,7 @@ const functionSnip = require('./snippets/react-function');
 const classSnip = require('./snippets/react-class');
 const loremSnip = require('./snippets/lorem');
 const reducerSnip = require('./snippets/redux-reducer');
+const reduxClass = require('./snippets/redux-class');
 
 module.exports = (input, opts) => {
   if (typeof input !== 'string') {
@@ -22,6 +23,7 @@ module.exports = (input, opts) => {
     function: functionSnip,
     class: classSnip,
     lorem: loremSnip,
+    reduxclass: reduxClass,
   };
 
   if (!snippets[input]) {
