@@ -19,8 +19,6 @@ $ npm install --save jsnip
 
 ## Usage
 
-Or from Node.js:
-
 ```js
 const jsnip = require('jsnip');
 jsnip('reducer', { name: 'MyAwesomeClass' });
