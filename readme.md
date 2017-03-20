@@ -44,6 +44,7 @@ snippet file.
 | [action](snippets/redux-actions.js)      | A Redux action snippet. |
 | [reducer](snippets/redux-reducer.js)     | A Redux reducer snippet. |
 | [lorem](snippets/lorem.txt)              | 3 paragraphs of lorem ipsum text. |
+| [reduxclass](snippets/redux-class.js)              | A connected (Redux) React class-based component. |
 
 #### options
 
@@ -64,7 +65,7 @@ Requests that aim to populate the snippet library with useful goodies. :hamburge
 
 ## Related
 
-- [jsnip-cli](https://github.com/radiovisual/jsnip-cli) Get these snippets from the command line.
+- [jsnip-cli](https://github.com/radiovisual/jsnip-cli) Get these snippets from the command line; Optionally copy to the clipboard.
 
 ## License
 
