@@ -1,5 +1,4 @@
 import test from 'ava';
-import strip from 'no-whitespace';
 import fn from './';
 
 test('action', async (t) => {
